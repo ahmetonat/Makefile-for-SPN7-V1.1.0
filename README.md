@@ -1,4 +1,4 @@
-# Makefile-for-SPN7-V1.1.0
+# Makefile for SPN7 V1.1.0
 
 ST microelectronics has a nice BLDC development board called [X-NUCLEO-IHM07M1](https://www.st.com/en/ecosystems/x-nucleo-ihm07m1.html). It provides the basic circuitry for power electronics and sensing. ST also provides a nice software library and source code called [X-CUBE-SPN7](https://www.st.com/en/embedded-software/x-cube-spn7.html) so that you can quickly start spinning the motor and develop applications. The base code allows motor start stop with the user button, and speed setting with the potentiometer.
 

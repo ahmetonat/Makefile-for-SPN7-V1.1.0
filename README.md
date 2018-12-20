@@ -13,7 +13,7 @@ To build and run this project you need:
 4. Download the Makefile given here. Modify the Makefile according to where you installed GNU ARM EMbedded, SPN7 etc. The provided Makefile is for Linux, so make sure you replace forward slashes in the directory names with backward slashes in Windows. The same Makefile also works in Windows (tested).
 5. The path to some of the files are specified in the Makefile. The others should be copied into the project directory. Or, you can add their locations to the search path if you like. The locations of all files needed are specified in the Makefile as comments.
 6. That's it! `make` will build the project.
-7. To program the target, you can use `make jflash`. If you connect to a microcontroller without ST-LINK V2, but only a serial port, you can use `make sflash`. (For the former, you need to have ['stlink'](https://github.com/texane/stlink)  and for the latter ['stm32flash'](https://sourceforge.net/projects/stm32flash) installed, both open source.)
+7. To program the target, you can use `make jflash`. If you connect to a microcontroller without ST-LINK V2, but only a serial port, you can use `make sflash`. (For the former, you need to have [`stlink`](https://github.com/texane/stlink)  and for the latter [`stm32flash`](https://sourceforge.net/projects/stm32flash) installed, both open source.)
 
 
 [Share and enjoy!](https://www.urbandictionary.com/define.php?term=share%20and%20enjoy)
